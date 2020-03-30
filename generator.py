@@ -2,8 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+#['San Francisco', 'California'],['Santa Clara', 'California'],['San Mateo', 'California'],['Marin', 'California'],['Contra Costa', 'California'],['Alameda', 'California'],['Los Angeles', 'California']
+
 #global inputs
-input_geographies =[['San Francisco', 'California'],['Santa Clara', 'California'],['San Mateo', 'California'],['Marin', 'California'],['Contra Costa', 'California'],['Alameda', 'California'],['Los Angeles', 'California']]
+input_geographies =[['Miami-Dade','Florida'],['Middlesex','Massachusetts'],['San Francisco','California'],['Suffolk','Massachusetts']]
 comparison_metric = 'cases'
 index_on_case_threshold = True
 case_threshold = 10
